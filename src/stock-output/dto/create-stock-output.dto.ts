@@ -1,6 +1,6 @@
 import { IsInt, IsNotEmpty, IsPositive } from "class-validator"
 
-export class CreateStockInputDto {
+export class CreateStockOutputDto {
     @IsNotEmpty()
     @IsInt()
     @IsPositive()
